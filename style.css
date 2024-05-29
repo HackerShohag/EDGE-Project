@@ -1,3 +1,8 @@
+body {
+    background-color: lightblue;
+    margin: 10px;
+}
+
 h1 {
     color: green;
 }
@@ -8,5 +13,9 @@ img {
 }
 
 p {
-    color: red;
+    color: magenta;
+    background-color: mediumaquamarine;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px 10px 10px 10px;
 }
