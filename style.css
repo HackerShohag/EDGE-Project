@@ -6,3 +6,7 @@ img {
     border: 1px solid gray;
     border-radius: 10px 10px 10px 10px;
 }
+
+p {
+    color: red;
+}
