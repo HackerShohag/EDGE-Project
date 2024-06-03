@@ -1,0 +1,50 @@
+body {
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: green;
+    padding: 5px;
+}
+
+p {
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.navigation li:hover {
+    scale: 1.1;
+}
+
+.navigation a:hover {
+    color: cadetblue;
+}
